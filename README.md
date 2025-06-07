@@ -27,16 +27,14 @@ Blockchain is like a digital record book that is shared across many computers. E
 ### 2. Block Anatomy
 
 ## Draw a block showing: data, previous hash, timestamp, nonce, and Merkle root.
-    Each block in a blockchain contains key components that ensure security, structure, and traceability.
 
-  Block 
- ────────────────────────────
-  Index: 1 
-  Timestamp: 2025-06-07 
-  Data: {transaction info} 
-  Previous Hash: a93d8f... 
-  Nonce: 257 
-  Merkle Root: 83be1a... 
+Each block in a blockchain contains key components that ensure security, structure, and traceability.
+
+Data          : {A, B, C, D}
+Previous Hash : 7a1f9c...
+Timestamp     : 2025-06-07 14:32:10
+Nonce         : 354
+Merkle Root   : b23c9f... 
 
   **Index**: The position of the block in the chain.
   **Timestamp**: The exact time when the block was created.
