@@ -29,20 +29,22 @@ Blockchain is like a digital record book that is shared across many computers. E
 
 Each block in a blockchain contains key components that ensure security, structure, and traceability.
 
->  Block  
-   Data          : {A, B, C, D}  
-   Previous Hash : 7a1f9c...  
-   Timestamp     : 2025-06-07 14:32:10  
-   Nonce         : 354  
-   Merkle Root   : b23c9f...
+>  Block    
+Index         : 2  
+Data          : {A, B, C, D}  
+Previous Hash : 7a1f9c842e9b...  
+Timestamp     : 2025-06-07 14:32:10  
+Nonce         : 354  
+Merkle Root   : b23c9f1d75e7...  
+Hash          : 9d4a2c3e104b...
 
-  **Index**: The position of the block in the chain.
-  **Timestamp**: The exact time when the block was created.
-  **Data**: Information or transactions recorded in the block.
-  **Previous Hash**: Links the block to the one before it.
-  **Nonce**: A number used for mining (Proof of Work).
-  **Merkle Root**: A final hash representing all transactions in the block.
-  **Hash**: The unique fingerprint of this block.
+ - **Index**: The position of the block in the chain.
+ - **Timestamp**: The exact time when the block was created.
+ - **Data**: Information or transactions recorded in the block.
+ - **Previous Hash**: Links the block to the one before it.
+ - **Nonce**: A number used for mining (Proof of Work).
+ - **Merkle Root**: A final hash representing all transactions in the block.
+ - **Hash**: The unique fingerprint of this block.
 
 
 ### Briefly explain with an example how the Merkle root helps verify data integrity.
