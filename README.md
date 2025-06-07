@@ -4,17 +4,16 @@ This mini task covers the basics of blockchain, block structure, and consensus m
 
 ---
 
-### Theoretical Part
+## Theoretical Part
 
 ### 1. Blockchain Basics
 
-## Define blockchain in your own words (100–150 words).
+### Define blockchain in your own words (100–150 words).
 
 Blockchain is like a digital record book that is shared across many computers. Each entry, or block, contains data, a timestamp, and a special code called a hash. Every block is linked to the previous one using its hash, forming a secure chain. Once data is added, it becomes very hard to change it without changing every following block. What makes blockchain special is that it's decentralized — no single person or company controls it. Instead, everyone using it keeps a copy. This system helps build trust, especially in industries like finance or supply chains. Blockchain is mainly known because of cryptocurrencies like Bitcoin, but its use goes far beyond that.
 
----
 
-## List 2 real-life use cases (e.g., supply chain, digital identity).
+### List 2 real-life use cases (e.g., supply chain, digital identity).
 
 1. **Supply Chain Tracking**  
    Companies like Walmart use blockchain to trace the origin of goods and detect any fraud or delay in real-time.
@@ -26,7 +25,7 @@ Blockchain is like a digital record book that is shared across many computers. E
 
 ### 2. Block Anatomy
 
-## Draw a block showing: data, previous hash, timestamp, nonce, and Merkle root.
+### Draw a block showing: data, previous hash, timestamp, nonce, and Merkle root.
 
 Each block in a blockchain contains key components that ensure security, structure, and traceability.
 
@@ -44,8 +43,8 @@ Merkle Root   : b23c9f...
   **Merkle Root**: A final hash representing all transactions in the block.
   **Hash**: The unique fingerprint of this block.
 
----
-## Briefly explain with an example how the Merkle root helps verify data integrity.
+
+### Briefly explain with an example how the Merkle root helps verify data integrity.
 
   A Merkle Root is a special hash that represents all the transactions in a block. It is created by hashing transaction data in pairs, then hashing those hashes again until    one final hash (the Merkle Root) is formed. This helps quickly verify whether a transaction exists in the block without checking the entire data.
   
@@ -65,15 +64,16 @@ Merkle Root   : b23c9f...
   If any transaction changes (A, B, C, or D), the Merkle Root will change, showing that the data has been tampered with.
 
 ---
+
 ### 3. Consensus Conceptualization
 
-## What is Proof of Work and why does it require energy?
+### What is Proof of Work and why does it require energy?
 Proof of Work is a method where computers compete to solve a complex puzzle. The first one to solve it gets to add the next block to the blockchain. It takes a lot of energy because the computer keeps trying different values (called nonce) until it finds the right one. This system keeps the network secure but uses high electricity, like in Bitcoin mining.
 
-## What is Proof of Stake and how does it differ?
+### What is Proof of Stake and how does it differ?
 In Proof of Stake, there’s no need to solve puzzles. Instead, validators are chosen based on how many coins they hold and are willing to “lock” as stake. The more coins you stake, the higher your chance of getting selected to validate the next block. It uses much less energy than PoW and is faster too.
 
-## What is Delegated Proof of Stake and how are validators selected?
+### What is Delegated Proof of Stake and how are validators selected?
 Delegated Proof of Stake is like a voting system. Coin holders vote to elect a small group of trusted validators (called delegates) who take turns validating transactions. This makes the system faster and more scalable. The ones with the most votes act on behalf of everyone, but they can be replaced if they don’t perform well.
 
 ---
