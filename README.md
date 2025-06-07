@@ -29,11 +29,15 @@ Blockchain is like a digital record book that is shared across many computers. E
 
 Each block in a blockchain contains key components that ensure security, structure, and traceability.
 
-Data          : {A, B, C, D}
-Previous Hash : 7a1f9c...
-Timestamp     : 2025-06-07 14:32:10
-Nonce         : 354
-Merkle Root   : b23c9f... 
+┌────────────────────────────────────┐
+│ Block │
+├────────────────────────────────────┤
+│ Data : {A, B, C, D} │
+│ Previous Hash : 7a1f9c... │
+│ Timestamp : 2025-06-07 14:32:10 │
+│ Nonce : 354 │
+│ Merkle Root : b23c9f... │
+└────────────────────────────────────┘
 
   **Index**: The position of the block in the chain.
   **Timestamp**: The exact time when the block was created.
