@@ -29,8 +29,8 @@ Blockchain is like a digital record book that is shared across many computers. E
 
 Each block in a blockchain contains key components that ensure security, structure, and traceability.
 
->  Block    
-Index         : 2  
+**Block**
+>Index         : 2  
 Data          : {A, B, C, D}  
 Previous Hash : 7a1f9c842e9b...  
 Timestamp     : 2025-06-07 14:32:10  
