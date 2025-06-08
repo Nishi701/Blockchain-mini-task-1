@@ -81,3 +81,47 @@ Delegated Proof of Stake is like a voting system. Coin holders vote to elect a s
 
 ---
 >  The practical part of this task is available in the respective JavaScript files
+
+## practical Part
+
+---
+
+### 3. Consensus Conceptualization
+
+example 
+terminal
+node consensus_demo.js
+PoW - Proof of Work:
+Each miner has a 'power' score (randomly generated).
+The miner with the **highest computational power** is selected.
+Miners: [
+  { name: 'Miner A', power: 20 },
+  { name: 'Miner B', power: 83 },
+  { name: 'Miner C', power: 61 }
+]
+Selected Miner: Miner B (Power: 83)
+--------------------------------------------------
+PoS - Proof of Stake:
+Each staker has a 'stake' value (randomly generated).
+The staker with the **highest financial stake** is selected.
+Stakers: [
+  { name: 'Staker X', stake: 78 },
+  { name: 'Staker Y', stake: 52 },
+  { name: 'Staker Z', stake: 69 }
+]
+Selected Staker: Staker X (Stake: 78)
+--------------------------------------------------
+DPoS - Delegated Proof of Stake:
+Each delegate has a number of 'votes' from community accounts.
+The delegate with the **most votes** is selected.
+Delegates: [
+  { name: 'Delegate 1', votes: 70 },
+  { name: 'Delegate 3', votes: 56 },
+  { name: 'Delegate 2', votes: 15 }
+]
+Selected Delegate: Delegate 1 (Votes: 70)
+--------------------------------------------------
+Final Consensus Simulation Result:
+PoW Winner: Miner B
+PoS Winner: Staker X
+DPoS Winner: Delegate 1
