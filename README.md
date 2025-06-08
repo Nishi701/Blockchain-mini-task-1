@@ -86,12 +86,12 @@ Delegated Proof of Stake is like a voting system. Coin holders vote to elect a s
 ### 1. Block Simulation in Code 
 ### Live Demo Link
 
-Background Color Switcher | [Live Demo 🔗](https://nishi701.github.io/Blockchain-mini-task-1/blockchain-simulation/) |
+Block Simulation | [Live Demo 🔗](https://nishi701.github.io/Blockchain-mini-task-1/blockchain-simulation/) |
 
 
 ### 2. Nonce Mining Simulation 
 ### Live Demo Link
-BMI Calculator | [Live Demo 🔗](https://nishi701.github.io/Blockchain-mini-task-1/mining_simulation/) |
+Mining Simulation | [Live Demo 🔗](https://nishi701.github.io/Blockchain-mini-task-1/mining_simulation/) |
 
 ### 3. Consensus Conceptualization
 open terminal (ctrl + `)
