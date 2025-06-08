@@ -80,11 +80,8 @@ In Proof of Stake, there’s no need to solve puzzles. Instead, validators are c
 Delegated Proof of Stake is like a voting system. Coin holders vote to elect a small group of trusted validators (called delegates) who take turns validating transactions. This makes the system faster and more scalable. The ones with the most votes act on behalf of everyone, but they can be replaced if they don’t perform well.
 
 ---
->  The practical part of this task is available in the respective JavaScript files
 
 ## practical Part
-
----
 
 ### 3. Consensus Conceptualization
 open terminal (ctrl + `)
