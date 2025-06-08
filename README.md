@@ -87,6 +87,6 @@ Delegated Proof of Stake is like a voting system. Coin holders vote to elect a s
 ---
 
 ### 3. Consensus Conceptualization
-terminal ctrl + `
-node consensus_demo.js
+open terminal (ctrl + `)
+>node consensus_demo.js
 
